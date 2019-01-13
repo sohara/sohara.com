@@ -16,8 +16,8 @@ const IndexPage = () => (
 
       <h2 className="inline-block my-8 p-3">Sean O'Hara</h2>
 
-      <p className="leading-loose">
-        I'm a web developer with over a decade of experience now specializing in
+      <p>
+        I'm a web developer with over a decade of experience specializing in
         single page applications.
       </p>
     </div>

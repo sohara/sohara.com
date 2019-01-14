@@ -3,21 +3,27 @@ title: "Resume"
 date: "2019-01-14"
 ---
 
-> I am a web application developer with over 15 years of experience. I caught the Ruby bug in 2006 and I have since acquired skills in Test Driven Development, Javascript application development, Object-Oriented Design and web devops. I prefer to work in teams adhering to agile development practices and relish the satisfaction of delivering quality applications and rich, intuitive user experiences.
+> I am a web application developer with over 20 years of experience. I caught the Ruby bug in 2006 and I have since applied Test Driven Development and design patterns to my craft. In the last 5 years I have focussed on Javascript application development, primarly employing the Ember.js framework. I relish the satisfaction of delivering quality applications and rich, intuitive user experiences.
 
 ## Professional Experience
+
+- **Software Consultant**
+  **O'Hara Industries**
+  _January 2018 to present_
+
+  Since last year I have worked as a remote consultant with Condé Nast as my primary client. I continued to support the Copilot team that I worked with when I was an employee (see below), focussing on a platform extensibility project.
 
 - **Senior Software Engineer**
   **Condé Nast**
   _August 2014 to December 2017_
 
-  Condé Nast's Copilot project is an in-house digital publish platform that powers over 20 properties including Vogue, Wired, New Yorker and Pitchfork. I joined the team in 2014 focussing mostly on the client-side editorial application, a single page application written in Javascript using the Ember.js framework. I stewarded the project's transition to Ember-Cli and successive upgrades from version 1.6 to 3.2. I oversaw the development of an extensive testing suite for the project, and its subsequent upgrades. As a senior member of a team of up to 10 engineers I balanced pragmatic decision making with an abundance enthusiasm for the technology and mentoring my teammates.
+  Condé Nast's Copilot project is an in-house digital publishing platform that powers over 20 properties including Vogue, Wired, New Yorker and Pitchfork. I joined the team in 2014 focussing on the client-side editorial application, a single page application written in Javascript using the Ember.js framework. I stewarded the project's transition to Ember-Cli and successive upgrades from version 1.6 to 3.2. I oversaw the development of an extensive testing suite for the project, and its subsequent upgrades. As a senior member of a team of about 10 engineers I balanced pragmatic decision making with an abundance of enthusiasm for the technology while mentoring my teammates.
 
 - **Senior Developer**
   **littleBits Electronics**
   _July 2013 to June 2014_
 
-  I am the senior developer on a large Rails-based ecommerce application for a Manhattan-based hardware startup. I am responsible for software design, TDD-based implementation, cloud-based devops, and managing code contributions from external teams. I work with multiple teams within the organi- zation to fulfill feature requirements from initial requirements exploration through specing, design, development, Q/A and deployment.
+  I was the senior developer on a large Ruby on Rails ecommerce application for this Manhattan-based hardware startup. I was responsible for software design, TDD-based implementation, cloud-based devops, and managing code contributions from external and remote teams. I collaborated with multiple teams within the organization to fulfill feature requirements from initial requirements exploration through specing, design, development, Q/A and deployment.
 
 - **Web Developer**
   **Stresslimit Design**
@@ -48,3 +54,7 @@ date: "2019-01-14"
   _1995_
 
   College Diploma in Professional Photography. Montreal, Québec.
+
+## References
+
+Available upon request.

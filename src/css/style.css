@@ -64,12 +64,22 @@
 .resume h2,
 .resume h3,
 .resume h4 {
-  @apply mt-8 mb-4;
+  @apply mt-8 mb-6;
 }
 
-.resume blockquote {
-  @apply pl-20 mr-32 border-blue-darkest border-l-8;
+.resume h2 {
+  @apply border-b border-grey-light;
 }
+.resume blockquote {
+  @apply pl-4 mr-2 border-blue-darkest border-l-8;
+}
+
+@screen md {
+  .resume blockquote {
+    @apply pl-20 mr-32 border-blue-darkest border-l-8;
+  }
+}
+
 .resume ul {
   @apply list-reset p-0;
 }

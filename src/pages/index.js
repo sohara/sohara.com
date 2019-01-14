@@ -12,13 +12,19 @@ const IndexPage = () => (
     />
 
     <div className="text-center">
-      <img src={selfie} className="block mx-auto w-3/4" alt="Sean O'Hara" />
+      <p className="lg:w-1/2 lg:mx-auto mb-4">
+        I'm a web developer with over a decade of front and back end experience.
+        I currently specialize in single page javascript applications.
+      </p>
 
-      <h2 className="inline-block my-8 p-3">Sean O'Hara</h2>
+      <img
+        src={selfie}
+        className="block mx-auto lg:w-1/2 mb-4"
+        alt="Sean O'Hara"
+      />
 
-      <p>
-        I'm a web developer with over a decade of experience specializing in
-        single page applications.
+      <p className="lg:w-1/2 lg:mx-auto mb-4">
+        Current location: Melbourne, AUS
       </p>
     </div>
   </Layout>

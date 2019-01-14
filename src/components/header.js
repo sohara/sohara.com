@@ -10,7 +10,7 @@ const handleClick = ev => {
 };
 
 const Header = ({ siteTitle }) => (
-  <nav className="bg-teal">
+  <nav className="bg-blue-dark">
     <div className="flex flex-wrap items-center justify-between max-w-xl mx-auto p-4 md:p-8">
       <Link to="/" className="flex items-center no-underline text-white">
         <svg
@@ -49,10 +49,10 @@ const Header = ({ siteTitle }) => (
           </Link>
 
           <Link
-            to="/about"
+            to="/resume"
             className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline text-white"
           >
-            About
+            Resume
           </Link>
 
           <Link

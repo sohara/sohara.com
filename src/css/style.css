@@ -60,3 +60,33 @@
  * @import "utilities/background-patterns";
  * @import "utilities/skew-transforms";
  */
+.resume h1,
+.resume h2,
+.resume h3,
+.resume h4 {
+  @apply mt-8 mb-4;
+}
+
+.resume blockquote {
+  @apply pl-20 mr-32 border-blue-darkest border-l-8;
+}
+.resume ul {
+  @apply list-reset p-0;
+}
+
+.resume li {
+  @apply mb-8;
+}
+
+.resume li strong {
+  @apply text-blue-darker;
+}
+
+.resume li strong:after {
+  content: " |";
+  @apply roman text-grey-light;
+}
+
+.resume li em {
+  @apply text-grey-dark roman;
+}

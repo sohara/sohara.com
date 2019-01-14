@@ -17,14 +17,14 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <div className="flex flex-col font-sans min-h-screen text-grey-darkest">
+      <div className="flex flex-col font-sans min-h-screen text-grey-darkest bg-grey-lightest">
         <Header siteTitle={data.site.siteMetadata.title} />
 
-        <div className="flex flex-col flex-1 md:justify-center max-w-xl mx-auto px-4 py-8 md:p-8 w-full">
+        <div className="flex flex-col flex-1 max-w-xl mx-auto px-4 py-8 md:p-8 w-full leading-normal">
           {children}
         </div>
 
-        <footer className="bg-blue">
+        <footer className="bg-blue-darker">
           <div className="flex justify-between max-w-xl mx-auto p-4 md:p-8 text-sm">
             <p className="text-white">
               Created by{" "}
@@ -33,6 +33,13 @@ const Layout = ({ children }) => (
                 className="font-bold no-underline text-white"
               >
                 Sean O'Hara
+              </a>
+              &nbsp;
+              <a
+                href="mailto:sohara@sohara.com"
+                className="no-underline text-grey-lightest"
+              >
+                sohara@sohara.com
               </a>
             </p>
 

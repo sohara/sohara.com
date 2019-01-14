@@ -22,20 +22,20 @@ module.exports = {
     },
     {
       resolve: `gatsby-transformer-remark`,
-      options: { commonmark: true }
+      options: { commonmark: false }
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-tailwind`,
-        short_name: `starter`,
+        name: `Sean O'Hara`,
+        short_name: `sohara.com`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#4dc0b5`,
-        display: `minimal-ui`,
-        icon: `src/images/tailwind-icon.png` // This path is relative to the root of the site.
+        display: `minimal-ui`
+        // icon: `src/images/tailwind-icon.png` // This path is relative to the root of the site.
       }
     },
     `gatsby-plugin-postcss`

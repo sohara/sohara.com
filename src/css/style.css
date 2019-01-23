@@ -75,7 +75,7 @@
   @apply border-b border-grey-light font-mono font-medium;
 }
 .resume blockquote {
-  @apply pl-4 mr-2 border-grey-darker border-l font-thin text-lg;
+  @apply pl-4 m-0 border-grey-darker border-l font-thin text-lg;
 }
 
 .resume ul {

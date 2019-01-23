@@ -10,14 +10,14 @@ const handleClick = ev => {
 };
 
 const Header = ({ siteTitle }) => (
-  <nav className="bg-blue-dark">
+  <nav className="bg-grey-darkest">
     <div className="flex flex-wrap items-center justify-between max-w-xl mx-auto p-4 md:p-8">
-      <Link to="/" className="flex items-center no-underline text-white">
-        <span className="font-bold text-xl tracking-tight">{siteTitle}</span>
+      <Link to="/" className="flex items-center no-underline text-grey-light">
+        <span className="font-mono font-hairline text-3xl">{siteTitle}</span>
       </Link>
 
       <button
-        className="block md:hidden border border-white flex items-center px-3 py-2 rounded text-white"
+        className="block md:hidden border border-grey-darker flex items-center px-3 py-2 rounded text-grey-darker"
         onClick={handleClick}
       >
         <svg

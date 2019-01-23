@@ -17,7 +17,7 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <div className="flex flex-col font-sans min-h-screen text-grey-darkest bg-grey-lightest">
+      <div className="flex flex-col font-sans min-h-screen text-grey-darkest bg-grey-lighter">
         <Header siteTitle={data.site.siteMetadata.title} />
 
         <div className="flex flex-col flex-1 max-w-xl mx-auto px-4 py-8 md:p-8 w-full leading-normal">

@@ -60,6 +60,9 @@
  * @import "utilities/background-patterns";
  * @import "utilities/skew-transforms";
  */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:200|Roboto+Mono:100,200,300,400,500");
+
 .resume h1,
 .resume h2,
 .resume h3,
@@ -68,10 +71,10 @@
 }
 
 .resume h2 {
-  @apply border-b border-grey-light;
+  @apply border-b border-grey-light font-mono font-medium;
 }
 .resume blockquote {
-  @apply pl-4 mr-2 border-blue-darkest border-l-8;
+  @apply pl-4 mr-2 border-grey-darker border-l font-thin text-lg;
 }
 
 @screen md {
@@ -89,7 +92,7 @@
 }
 
 .resume li p:first-child {
-  @apply w-full pb-2;
+  @apply w-full pb-4;
 }
 
 @screen md {
@@ -108,8 +111,11 @@
   }
 }
 
+.resume li {
+  @apply text-grey-darkest font-light;
+}
 .resume li strong {
-  @apply text-blue-darker block;
+  @apply block font-mono font-normal text-xl;
 }
 
 /* .resume li strong:after {
@@ -118,5 +124,5 @@
 } */
 
 .resume li em {
-  @apply text-grey-dark roman block;
+  @apply roman block text-sm font-normal leading-loose;
 }

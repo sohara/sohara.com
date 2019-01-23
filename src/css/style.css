@@ -63,6 +63,7 @@
 
 @import url("https://fonts.googleapis.com/css?family=Roboto:200|Roboto+Mono:100,200,300,400,500");
 
+/* purgecss start ignore */
 .resume h1,
 .resume h2,
 .resume h3,
@@ -103,3 +104,4 @@
 .resume li em {
   @apply roman block text-sm font-normal leading-loose;
 }
+/* purgecss end ignore */

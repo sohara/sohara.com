@@ -19,7 +19,7 @@ const ResumePage = ({ data }) => (
 
     {data.allMarkdownRemark.edges.map(({ node }) => (
       <div
-        className="resume"
+        className="resume max-w-md mx-auto"
         key={node.id}
         dangerouslySetInnerHTML={{ __html: node.html }}
       />

@@ -17,20 +17,20 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <div className="flex flex-col font-sans min-h-screen text-grey-darkest bg-grey-lightest">
+      <div className="flex flex-col font-sans min-h-screen text-grey-darkest bg-grey-lighter">
         <Header siteTitle={data.site.siteMetadata.title} />
 
-        <div className="flex flex-col flex-1 max-w-xl mx-auto px-4 py-8 md:p-8 w-full leading-normal">
+        <div className="flex flex-col flex-1 max-w-xl mx-auto px-4 py-8 w-full leading-normal">
           {children}
         </div>
 
-        <footer className="bg-blue-darker">
-          <div className="flex justify-between max-w-xl mx-auto p-4 md:p-8 text-sm">
-            <p className="text-white">
+        <footer className="bg-grey-darkest">
+          <div className="flex justify-between max-w-xl mx-auto p-4 text-sm">
+            <p className="text-grey-lighter">
               Created by{" "}
               <a
                 href="https://sohara.com"
-                className="font-bold no-underline text-white"
+                className="font-bold no-underline text-grey-lighter"
               >
                 Sean O'Hara
               </a>
@@ -46,7 +46,7 @@ const Layout = ({ children }) => (
             <p>
               <a
                 href="https://github.com/sohara"
-                className="font-bold no-underline text-white"
+                className="font-bold no-underline text-grey-lighter"
               >
                 GitHub
               </a>

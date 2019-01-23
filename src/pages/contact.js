@@ -7,9 +7,15 @@ const ContactPage = () => (
   <Layout>
     <SEO title="Contact" keywords={[`Sean O'Hara`, `contact`]} />
 
-    <p>
+    <p className="text-center">
       I can be reached at{" "}
-      <a href="mailto:sohara@sohara.com">sohara@sohara.com</a>
+      <a
+        href="mailto:sohara@sohara.com"
+        className="text-grey-darkest font-bold no-underline"
+      >
+        sohara@sohara.com
+      </a>
+      .
     </p>
   </Layout>
 );

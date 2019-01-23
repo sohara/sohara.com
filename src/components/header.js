@@ -11,7 +11,7 @@ const handleClick = ev => {
 
 const Header = ({ siteTitle }) => (
   <nav className="bg-grey-darkest">
-    <div className="flex flex-wrap items-center justify-between max-w-xl mx-auto p-4 md:p-8">
+    <div className="flex flex-wrap items-center justify-between max-w-xl mx-auto p-4">
       <Link to="/" className="flex items-center no-underline text-grey-light">
         <span className="font-mono font-hairline text-3xl">{siteTitle}</span>
       </Link>
@@ -34,21 +34,21 @@ const Header = ({ siteTitle }) => (
         <div className="text-sm">
           <Link
             to="/"
-            className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline text-white"
+            className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline text-grey-lighter font-mono tracking-wide"
           >
             Home
           </Link>
 
           <Link
             to="/resume"
-            className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline text-white"
+            className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline text-grey-lighter font-mono tracking-wide"
           >
             Resume
           </Link>
 
           <Link
             to="/contact"
-            className="block md:inline-block mt-4 md:mt-0 no-underline text-white"
+            className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline text-grey-lighter font-mono tracking-wide"
           >
             Contact
           </Link>

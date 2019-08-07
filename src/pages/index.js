@@ -24,7 +24,7 @@ const IndexPage = () => (
         alt="Sean O'Hara"
       />
 
-      <p className="mx-auto mb-8">Current location: Katoomba, NSW, AUS</p>
+      <p className="mx-auto mb-8">Current location: Montréal, Canada</p>
     </div>
   </Layout>
 );

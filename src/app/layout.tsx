@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="flex flex-col font-sans min-h-screen text-grey-darkest bg-grey-lighter">
+        <div className="flex flex-col font-sans min-h-screen text-gray-800 bg-gray-100">
           <Header />
 
           <div className="flex flex-col flex-1 max-w-xl mx-auto px-4 py-8 w-full leading-normal">

@@ -8,12 +8,10 @@ const handleClick = (ev) => {
 };
 
 export const Header = () => (
-  <nav className="bg-grey-darkest">
+  <nav className="bg-gray-600">
     <div className="flex flex-wrap items-center justify-between max-w-xl mx-auto p-4">
-      <Link href="/" className="flex items-center no-underline text-grey-light">
-        <span className="font-mono font-hairline text-3xl">
-          sean o&apos;hara
-        </span>
+      <Link href="/" className="flex items-center no-underline text-gray-100">
+        <span className="font-mono font-thin text-3xl">sean o&apos;hara</span>
       </Link>
 
       <button

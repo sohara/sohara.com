@@ -32,21 +32,21 @@ export const Header = () => (
         <div className="text-sm">
           <Link
             href="/"
-            className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline text-grey-lighter font-mono tracking-wide"
+            className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline text-gray-100 font-mono tracking-wide"
           >
             Home
           </Link>
 
           <Link
             href="/resume"
-            className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline text-grey-lighter font-mono tracking-wide"
+            className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline text-gray-100 font-mono tracking-wide"
           >
             Resume
           </Link>
 
           <Link
             href="/contact"
-            className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline text-grey-lighter font-mono tracking-wide"
+            className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline text-gray-100 font-mono tracking-wide"
           >
             Contact
           </Link>

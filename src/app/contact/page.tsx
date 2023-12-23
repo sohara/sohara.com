@@ -1,3 +1,14 @@
 export default function Contact() {
-  return <h1>Contact</h1>;
+  return (
+    <p className="text-center">
+      I can be reached at{" "}
+      <a
+        href="mailto:sohara@sohara.com"
+        className="text-grey-darkest font-bold no-underline"
+      >
+        sohara@sohara.com
+      </a>
+      .
+    </p>
+  );
 }

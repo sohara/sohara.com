@@ -4,7 +4,7 @@ export default function Contact() {
       I can be reached at{" "}
       <a
         href="mailto:sohara@sohara.com"
-        className="text-grey-darkest font-bold no-underline"
+        className="text-gray-600 font-bold no-underline"
       >
         sohara@sohara.com
       </a>

@@ -9,13 +9,13 @@ import Link from "next/link";
 
 export const Header = () => (
   <nav className="bg-gray-600">
-    <div className="flex flex-wrap items-center justify-between max-w-xl mx-auto p-4">
+    <div className="flex flex-wrap items-center justify-between max-w-5xl mx-auto p-4">
       <Link href="/" className="flex items-center no-underline text-gray-100">
         <span className="font-mono font-thin text-3xl">sean o&apos;hara</span>
       </Link>
 
       <button
-        className="block md:hidden border border-grey-darker flex items-center px-3 py-2 rounded text-grey-darker"
+        className="block md:hidden border border-gray-500 flex items-center px-3 py-2 rounded text-gray-500"
         // onClick={handleClick}
       >
         <svg

@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:200|Roboto+Mono:100,200,300,400,500");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root { */
+/*   --foreground-rgb: 0, 0, 0; */
+/*   --background-start-rgb: 214, 219, 220; */
+/*   --background-end-rgb: 255, 255, 255; */
+/* } */
+/**/
+/* @media (prefers-color-scheme: dark) { */
+/*   :root { */
+/*     --foreground-rgb: 255, 255, 255; */
+/*     --background-start-rgb: 0, 0, 0; */
+/*     --background-end-rgb: 0, 0, 0; */
+/*   } */
+/* } */
+/**/
+/* body { */
+/*   color: rgb(var(--foreground-rgb)); */
+/*   background: linear-gradient( */
+/*       to bottom, */
+/*       transparent, */
+/*       rgb(var(--background-end-rgb)) */
+/*     ) */
+/*     rgb(var(--background-start-rgb)); */
+/* } */
+
+/* purgecss start ignore */
+.resume h1,
+.resume h2,
+.resume h3,
+.resume h4 {
+  @apply mt-8 mb-6;
+}
+
+.resume h2 {
+  @apply border-b border-gray-200 font-mono font-medium text-2xl;
+}
+
+.resume blockquote {
+  @apply pl-4 m-0 border-gray-800 border-l font-extralight text-lg;
+}
+
+.resume ul {
+  /* @apply list-reset p-0; */
+}
+
+.resume li {
+  @apply mb-8 flex flex-wrap;
+}
+
+.resume li p:first-child {
+  @apply w-full pb-4;
+}
+
+.resume li {
+  @apply text-gray-900 font-light;
+}
+.resume li strong {
+  @apply block font-mono font-normal text-xl;
+}
+
+.resume li em {
+  @apply not-italic block text-sm font-normal leading-loose;
+}

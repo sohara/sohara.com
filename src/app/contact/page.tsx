@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "Contact - Sean O'Hara",
+};
+
 export default function Contact() {
   return (
     <p className="text-center">

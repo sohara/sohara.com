@@ -1,3 +1,3 @@
-export default function Resume() {
+export default function Contact() {
   return <h1>Contact</h1>;
 }

@@ -1,11 +1,11 @@
 import Link from "next/link";
 
-const handleClick = (ev) => {
-  ev.preventDefault();
-  const element = document.getElementById("nav");
-  element.classList.toggle("block");
-  element.classList.toggle("hidden");
-};
+// const handleClick = (ev: React.MouseEvent<HTMLElement>) => {
+//   ev.preventDefault();
+//   const element = document.getElementById("nav");
+//   element?.classList.toggle("block");
+//   element?.classList.toggle("hidden");
+// };
 
 export const Header = () => (
   <nav className="bg-gray-600">

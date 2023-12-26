@@ -12,6 +12,8 @@ export default function Home() {
 
       <Image
         src={profilePic}
+        width={600}
+        height={600}
         className="block mx-auto mb-8 rounded-full border-4 border-gray-600"
         alt="Sean O'Hara"
       />

@@ -30,9 +30,7 @@
 
 /* purgecss start ignore */
 .resume h1,
-.resume h2,
-.resume h3,
-.resume h4 {
+.resume h2 {
   @apply mt-8 mb-6;
 }
 
@@ -42,6 +40,10 @@
 
 .resume blockquote {
   @apply pl-4 m-0 border-gray-800 border-l font-extralight text-lg;
+}
+
+.resume blockquote strong {
+  font-weight: 400;
 }
 
 .resume ul {
@@ -59,10 +61,15 @@
 .resume li {
   @apply text-gray-900 font-light;
 }
-.resume li strong {
+
+.resume li h3 {
   @apply block font-mono font-normal text-xl;
 }
 
 .resume li em {
   @apply not-italic block text-sm font-normal leading-loose;
+}
+
+.resume li strong {
+  font-weight: 400;
 }

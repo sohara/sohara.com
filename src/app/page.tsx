@@ -5,9 +5,11 @@ export default function Home() {
   return (
     <div className="mx-auto max-w-xl text-center ">
       <p className=" mb-8">
-        I&apos;m a web developer with over two decades of front and back end
-        experience. I currently specialize in single page javascript
-        applications.
+        A skilled full-stack engineer with over two decades of experience in
+        multiple platforms and frameworks, I value pragmatic decision-making
+        applied to products that embody sound design and long-term
+        maintainability. Most recently I have focussed on application
+        development with React, Typescript and Node.js.
       </p>
 
       <Image
